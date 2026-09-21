@@ -6,6 +6,12 @@ Branche `main` vide
 
 Pour comparer le code modifié entre 2 branches, vous pouvez aller sur cette URL : https://github.com/EnaRiLau/TP_front-end_ENSIM_2026/compare
 
+
+
+## TP 1.2 : Ajouter une image
+
+1. Ajoutez une image de votre choix sur la page "Mes informations"
+
 ## TP 1.1 : Initier votre site vitrine
 
 1. Créer une page HTML "Mes informations" qui contienne au minimum : 
