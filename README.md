@@ -1,12 +1,14 @@
-# TP_front-end_ENSIM_2026
-Correction des TP Angular de la matière Programmation Front-end à l'ENSIM 
+# Corrections des TP - Programmation front end
 
-Branche `main` vide
-1 Branche par TP HTML / CSS
+## TP 1.3 : Initiez la page de vos experiences 
 
-Pour comparer le code modifié entre 2 branches, vous pouvez aller sur cette URL : https://github.com/EnaRiLau/TP_front-end_ENSIM_2026/compare
+1. Créer une nouvelle page "Experiences" contenant au minimum : 
+   * Un **tableau** de vos projets personnels, étudiants et professionels : 
+     * En ligne, chacun de vos projets
+     * 2 colonnes : nom du projet  &   technologies / outils / bonne pratiques utilisées
+   * Un footer qui rappelle votre nom / prénom et qui indique votre année de promotion
 
-
+2. Mettre à jour les `nav` de toutes les pages
 
 ## TP 1.2 : Ajouter une image
 
