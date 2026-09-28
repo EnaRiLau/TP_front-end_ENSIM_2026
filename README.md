@@ -1,5 +1,19 @@
 # Corrections des TP - Programmation front end
 
+## TP 1.4 : Ajouter un formulaire de contact
+
+1. Sur la page "Mes informations", ajouter un formulaire tel que : 
+   * La balise **`form`** contienne 2 attributs :
+     * **`action`** avec comme valeur : "**mailto:**_VotreEmail_" (Remplacer _"VotreEmail"_ par votre adresse mail 😉)
+     * **`method`** avec comme valeur : **`GET`**
+   * Il contienne : 
+     * Un **`input`** **requis** avec un attribut **type** valant **`email`**
+     * Un **`textarea`** avec un attribut **name** valant **`body`** (qui permette à l'utilisateur de "pré-remplir" son message)
+     * Un **bouton** de type **`submit`**
+     * Un **bouton** de type **`reset`**
+   * Tous les champs du formulaires doivent être dans un même `fieldset`
+   * Chaque champ / groupe de champs doit avoir un `label` / `legend` associé
+
 ## TP 1.3 : Initiez la page de vos experiences 
 
 1. Créer une nouvelle page "Experiences" contenant au minimum : 
