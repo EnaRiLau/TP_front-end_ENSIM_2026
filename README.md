@@ -1,6 +1,22 @@
 # Corrections des TP - Programmation front end
 
 
+## TP 2.2 : Modifier le box-sizing
+
+1. Constater le comportement par défaut : Dans une page de votre choix, faites : 
+	* Créer une `div` à laquelle vous attribuez les styles suivants :
+    	* Couleur : `background-color: #ccccff;`
+    	* Taille : `width :200px;` et `height: 100px;`
+  	* Créer un élément parent de cette div auquel vous attribuez les styles suivants :
+    	* Taille : `width :200px;` et `height: 100px;`
+    	* Couleur : `background-color: #e6ffff;` et `opacity : 0.5;`
+  	* Tester les cas suivants sur **l'enfant** : 
+    	* Ajouter une bordure : `border : 5px solid #994d00;`
+    	* Ajouter un padding `padding: 10px;`  
+		&rarr; Dans les 2 cas, l'enfant "déborde" du parent
+
+2. Modifier la propriété `box-sizing` pour que l'enfant ne "déborde" plus du parent
+
 ## TP 2.1 : Styliser votre site vitrine
 
 1. Créer un fichier .css et importez le dans vos 3 pages HTML

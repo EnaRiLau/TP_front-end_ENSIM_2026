@@ -38,3 +38,22 @@ h1 {
 footer > p {
     font-size: 0.7em; /* Modification de la taille du texte à 0.7em */
 }
+
+#ex-tp-2-2 {
+    & #parent-2-2 {
+        background-color: #ccccff; /* Couleur de fond du parent */
+        width: 200px; /* Largeur du parent */
+        height: 100px; /* Hauteur du parent */
+    }
+    & #enfant-2-2 {
+        background-color: #e6ffff; /* Couleur de fond de l'enfant */
+        opacity : 0.5; /* Opacité de l'enfant */
+        width: 200px; /* Largeur du parent */
+        height: 100px; /* Hauteur du parent */
+
+        border : 5px solid #994d00; /* Bordure marron de 5px autour de l'enfant */
+        padding: 10px; /* Marge autour de l'enfant */
+
+        box-sizing: border-box; /* Inclut la bordure et le padding dans les dimensions de l'élément */
+    }
+}
