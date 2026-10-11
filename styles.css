@@ -7,6 +7,14 @@ nav {
     & > ul {
          /* Suppression des puces de la liste */
         list-style-type: none;
+
+        /* Les liens de la barre de navigations seront dans une Flexbox */
+        display: flex;
+        /* Pas besoin de modifier la direction de la flexbox : Horizontal par défaut */
+        gap:10px; /* Les éléments de la flexbox seront espacés de 10px entre eux */
+        align-items: center; /* Alignement vertical des éléments de la flexbox */
+        justify-content: space-around; /* Alignement horizontal des éléments de la flexbox */
+
     }
 }
 

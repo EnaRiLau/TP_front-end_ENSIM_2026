@@ -1,6 +1,16 @@
 # Corrections des TP - Programmation front end
 
 
+## TP 2.3 : Modifier le display de la barre de navigation
+
+1. Modifiez le style de la barre de navigation pour que ses éléments soient :
+    * Dans une flexbox
+    * Sur une même ligne (les uns à coté des autres horizontalement)
+    * Espacés entre eux de 10px
+    * Centrés verticalement
+    * Alignés sur l'axe principal en mode `space-around`
+
+
 ## TP 2.2 : Modifier le box-sizing
 
 1. Constater le comportement par défaut : Dans une page de votre choix, faites : 
