@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="fr">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Description de mes informations personnelles">
+    <title>Mes Informations</title> <!-- Titre qui sera affiché dans l'onglet du navigateur -->
+    <!-- Lien vers le fichier CSS -->
+     <link rel="stylesheet" href="styles.css">
+  </head>
+
+  <body>
+
+    <!-- Barre de navigation - Dupliquée avec celles des autres pages -->
+    <nav>
+      <ul>
+        <li><a href="accueil.html">Accueil</a></li>
+        <li><a href="mes-informations.html" aria-current="page">Mes informations</a></li>
+        <li><a href="experiences.html">Mes expériences</a></li>
+      </ul>
+    </nav>
+
+    <!-- Titre de niveau 1 contenant Nom / Prénom-->
+    <h1>Je suis John DOE - Étudiant en informatique</h1>
+
+    <!-- Ajout d'une image - avec limitation de sa largeur -->
+    <aside>
+      <img id="selfie" src="assets/selfie.jpg" alt="Selfie de John DOE" width="200">
+    </aside>
+
+    <!-- Liste à puces contenant les passions -->
+    <h2>Mes Passions</h2>
+    <ul>
+        <li>Jeux vidéo</li>
+        <li>Musique</li>
+        <li>Lecture</li>
+    </ul>
+
+    <h2>Me contacter</h2>
+    <!-- Formulaire de contact allant chercher à envoyer un email à sa soumission-->
+    <form action="mailto:monSuperEmail@example.com" method="get">
+      <fieldset>
+        <legend>Formulaire de contact</legend>
+        <!-- Champ email requis - Ne sera pas vraiment utilisé pour la suite-->
+        <label for="email">Votre email</label>
+        <input type="email" id="email" placeholder="Votre adresse email" required>
+
+        <!-- Champ message qui, grace à l'attribut "name=body", sera utilisé pour le corps du email-->
+        <label for="message">Votre message</label>
+        <textarea name="body" id="message" placeholder="Votre message"></textarea>
+
+        <!-- Permettera d'ouvrir le client email par défaut -->
+        <button type="submit">Envoyer</button>
+        <!-- Reinitialise la valeur de tous les champs du formulaire -->
+        <button type="reset">Réinitialiser</button>
+      </fieldset>
+    </form>    
+
+  </body>
+</html>

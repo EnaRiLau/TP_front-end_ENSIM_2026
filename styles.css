@@ -1,0 +1,40 @@
+/* Style appliqué pour TOUS les tag "nav" */
+nav {
+    background-color: #f8f9fa; /* Couleur de fond du menu de navigation */
+    padding: 5px 15px; /* 5px de padding en haut et en bas, 15px à gauche et à droite */
+
+    /* Pour tous les éléments `ul` enfants DIRECTS de `nav` */
+    & > ul {
+         /* Suppression des puces de la liste */
+        list-style-type: none;
+    }
+}
+
+/* Style appliqué pour tous les a, enfant (direct ou indirect) d'un nav, qui ont l'attribut aria-current="page" */
+nav a[aria-current="page"] {
+    font-weight: bold; /* Texte en gras */
+    background-color: #e9ecef; /* Autre couleur de fond */
+    font-size: 1.1em; /* Augmentation de la taille du texte */
+}
+
+/* Style appliqué pour TOUS les tag "h1" */
+h1 {
+    font-family: Impact, fantasy; /* Modification de la police d'écriture avec un fallback */
+    font-size: 2.5em; /* Modification de la taille de la police */
+}
+
+/* Style appliqué pour l'élément avec l'id "selfie"  : Id unique ↔ Style appliqué qu'a 1 seul élément*/
+#selfie {
+    padding: 15px; /* Padding tout autour de l'image */
+    border : 1px solid black; /* Bordure noire de 1px autour de l'image */
+}
+
+/* Style appliqué pour tous éléments possédant la classe "project-name" */
+.project-name {
+    font-weight: bold; /* Texte en gras */
+}
+
+/* Style appliqué pour tous élément p qui est un enfant direct de footer */
+footer > p {
+    font-size: 0.7em; /* Modification de la taille du texte à 0.7em */
+}
