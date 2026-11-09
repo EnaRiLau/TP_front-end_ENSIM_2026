@@ -1,6 +1,20 @@
 # Corrections des TP - Programmation front end
 
 
+## TP 2.4 : Ordonner la page "Mes informations"
+1. La page "Mes informations" doit être une grille telle que : 
+   * **2 colonnes** :
+     *  la première occupe 1/3 de la page 
+     *  la deuxième 2/3 de la page
+   * **4 lignes** : 
+     * la première mesure `70px`, 
+     * la deuxième et la **quatrième** s'adaptent à leurs contenus 
+     * la **troisième** occupe l'espace restant
+   * La barre de navigation, le titre et les informations de contact occupent les deux colonnes et sont respectivement sur les lignes 1, 2 et 4
+   * La troisième ligne sera composé de : 
+     * L'image sur la 1ère colonne
+     * Les passions sur la 2ème colonne
+
 ## TP 2.3 : Modifier le display de la barre de navigation
 
 1. Modifiez le style de la barre de navigation pour que ses éléments soient :
