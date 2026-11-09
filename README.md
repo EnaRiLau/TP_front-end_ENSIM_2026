@@ -1,5 +1,16 @@
 # Corrections des TP - Programmation front end
 
+## TP 2.5 : Définir et utiliser des variables CSS
+
+1. Définissez des variables CSS au  niveau `root` pour : 
+   * un espacement par défaut
+   * une couleur principale
+2. Utilisez la variable de l'espacement pour tous les margin / padding / gap que vous avez défini
+3. Utilisez la variable de la couleur principale pour : 
+	* La couleur de texte de tous les titre de niveau 1
+	* Le encadrement autour de l'image de la page "Mes informations"
+	* Le fond de tous les `button` (_Pour avoir un bon contraste, vous pouvez passer la couleur du texte en blanc_)
+4. Pour le bouton de réinitialisation du formulaire de contact, surcharger la couleur de fond avec une autre valeur pour la variable.
 
 ## TP 2.4 : Ordonner la page "Mes informations"
 1. La page "Mes informations" doit être une grille telle que : 
